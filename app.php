@@ -1,4 +1,6 @@
 <?php 
+
+    //Cumple la misma funcion que el app.j, para importar todas las classe 
     require_once 'vendor/autoload.php';
     use App\Database;
     use Conf\connectionString;

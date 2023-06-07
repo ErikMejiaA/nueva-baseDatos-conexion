@@ -5,9 +5,9 @@
                 'mysql' => Array(
                     'driver' => 'mysql',
                     'host' => 'localhost',
-                    'username' => 'root', //'username' => 'campus',
+                    'username' => 'campus', //'username' => 'campus',
                     'database' => 'mitienda',
-                    'password' => '123456789', //'password' => 'campus2023',
+                    'password' => 'campus2023', //'password' => 'campus2023',
                     'charset' => 'utf8mb4',
                     'collation' => 'utf8mb4_unicode_ci',
                     'flags' => [
