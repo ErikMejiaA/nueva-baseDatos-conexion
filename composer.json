@@ -1,0 +1,18 @@
+{
+    "name": "apolm01-032/base-datos-conexion",
+    "description": "DEmo de conexion entre php y mysql",
+    "authors": [
+        {
+            "name": "ErikMejiaA",
+            "email": "131417967+ErikMejiaA@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload" :{
+        "psr-4":{
+            "App\\": "./clases",
+            "Conf\\": "./config",
+            "Models\\": "./models"
+        }
+    }
+}
