@@ -1,5 +1,6 @@
-let formPais = document.querySelector("#myFormPais"); // seleccionamos el formulario
-let myHeadersPais = new Headers({ "Content-Type": "application/json" }) //creamos el header que vamos a incluir en el fetch
+// seleccionamos el formulario
+let formPais = document.querySelector("#myFormPais");
+let myHeadersPais = new Headers({ "Content-Type": "application/json" }); //creamos el header que vamos a incluir en el fetch
 
 // creamos un evento al boto de form de Departamento 
 document.querySelector('#btnPais').addEventListener('click', async (e) => {
